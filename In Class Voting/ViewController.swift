@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var currentCount1: UILabel!
     @IBOutlet weak var currentCount2: UILabel!
+    @IBOutlet weak var currentWin: UILabel!
     
     
     
@@ -19,10 +20,21 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool){
         
         currentCount1.text = String((parent as! TBViewController).counter1)
-        currentCount2.text = String((parent as! TBViewController).counter1)
+        currentCount2.text = String((parent as! TBViewController).counter2)
         
+        if (parent as! TBViewController).counter1 > (parent as! TBViewController).counter2
+        {
+           currentWin.text = "Train!"
+        }
+        else
+        {
+            currentWin.text = "Plane!"
+        }
+      
         
-    }
+        }
+        
+    
     
     
 

@@ -15,18 +15,10 @@ class VotingViewController: UIViewController {
         (parent as! TBViewController).counter1+=1
     }
     
-    @IBAction func voteNo(_ sender: Any) {
-        (parent as! TBViewController).counter1-=1
-    }
-    
     @IBAction func voteYesP(_ sender: Any) {
         (parent as! TBViewController).counter2+=1
     }
     
-    
-    @IBAction func voteNoP(_ sender: Any) {
-        (parent as! TBViewController).counter2-=1
-    }
     
     
 
