@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:In Class Voting.xcodeproj">
    </FileRef>
 </Workspace>

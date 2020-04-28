@@ -9,8 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var currentCount1: UILabel!
+    @IBOutlet weak var currentCount2: UILabel!
+    
+    
+    
+    
+    override func viewWillAppear(_ animated: Bool){
+        
+        currentCount1.text = String((parent as! TBViewController).counter1)
+        currentCount2.text = String((parent as! TBViewController).counter1)
+        
+        
+    }
+    
+    
 
-    override func viewDidLoad() {
+override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }

@@ -15,6 +15,11 @@
 		D33702B6242A5D7800779818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33702B4242A5D7800779818 /* LaunchScreen.storyboard */; };
 		D33702C1242A5D7800779818 /* In_Class_VotingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33702C0242A5D7800779818 /* In_Class_VotingTests.swift */; };
 		D33702CC242A5D7800779818 /* In_Class_VotingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33702CB242A5D7800779818 /* In_Class_VotingUITests.swift */; };
+		D33702DA242A5EBB00779818 /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33702D9242A5EBB00779818 /* VotingViewController.swift */; };
+		D33702DC242A5F0500779818 /* TBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33702DB242A5F0500779818 /* TBViewController.swift */; };
+		D399886424587720002AB2AC /* Airplane:Train.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D399886324587720002AB2AC /* Airplane:Train.jpg */; };
+		D399886624587841002AB2AC /* Train.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D399886524587841002AB2AC /* Train.jpg */; };
+		D39988682458784A002AB2AC /* Airplane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D39988672458784A002AB2AC /* Airplane.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		D33702C7242A5D7800779818 /* In Class VotingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "In Class VotingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33702CB242A5D7800779818 /* In_Class_VotingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = In_Class_VotingUITests.swift; sourceTree = "<group>"; };
 		D33702CD242A5D7800779818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33702D9242A5EBB00779818 /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
+		D33702DB242A5F0500779818 /* TBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBViewController.swift; sourceTree = "<group>"; };
+		D399886324587720002AB2AC /* Airplane:Train.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Airplane:Train.jpg"; sourceTree = "<group>"; };
+		D399886524587841002AB2AC /* Train.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Train.jpg; sourceTree = "<group>"; };
+		D39988672458784A002AB2AC /* Airplane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Airplane.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,9 @@
 				D33702BF242A5D7800779818 /* In Class VotingTests */,
 				D33702CA242A5D7800779818 /* In Class VotingUITests */,
 				D33702A7242A5D7500779818 /* Products */,
+				D399886324587720002AB2AC /* Airplane:Train.jpg */,
+				D399886524587841002AB2AC /* Train.jpg */,
+				D39988672458784A002AB2AC /* Airplane.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +115,9 @@
 				D33702A9242A5D7500779818 /* AppDelegate.swift */,
 				D33702AB242A5D7500779818 /* SceneDelegate.swift */,
 				D33702AD242A5D7500779818 /* ViewController.swift */,
+				D33702DB242A5F0500779818 /* TBViewController.swift */,
 				D33702AF242A5D7500779818 /* Main.storyboard */,
+				D33702D9242A5EBB00779818 /* VotingViewController.swift */,
 				D33702B2242A5D7800779818 /* Assets.xcassets */,
 				D33702B4242A5D7800779818 /* LaunchScreen.storyboard */,
 				D33702B7242A5D7800779818 /* Info.plist */,
@@ -233,7 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D33702B6242A5D7800779818 /* LaunchScreen.storyboard in Resources */,
+				D39988682458784A002AB2AC /* Airplane.jpg in Resources */,
+				D399886424587720002AB2AC /* Airplane:Train.jpg in Resources */,
 				D33702B3242A5D7800779818 /* Assets.xcassets in Resources */,
+				D399886624587841002AB2AC /* Train.jpg in Resources */,
 				D33702B1242A5D7500779818 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D33702DC242A5F0500779818 /* TBViewController.swift in Sources */,
 				D33702AE242A5D7500779818 /* ViewController.swift in Sources */,
 				D33702AA242A5D7500779818 /* AppDelegate.swift in Sources */,
 				D33702AC242A5D7500779818 /* SceneDelegate.swift in Sources */,
+				D33702DA242A5EBB00779818 /* VotingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
